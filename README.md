@@ -1,6 +1,6 @@
 # Alexsander Corvello 
 
-### Senior QA Engineer · Test Automation · AI-Powered Quality Engineering
+### Senior QA Engineer · Test Automation · AI-Powered Quality Engineering · Data Analysis
 
 📍 São Leopoldo, Brazil &nbsp;|&nbsp; 🧪 10+ years in software quality &nbsp;|&nbsp; 🤖 Bringing generative AI into the testing lifecycle
 

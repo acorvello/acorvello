@@ -1,93 +1,59 @@
 # Alexsander Corvello da Silveira
 
-### Senior QA Engineer · Test Automation · Data Analysis & Applied AI
+### Senior QA Engineer · Data QA · AI Engineer · Applied Machine Learning
 
-📍 São Leopoldo, Brazil &nbsp;|&nbsp; 🧪 10+ years in software quality &nbsp;|&nbsp; 📊 Data analysis with machine learning &nbsp;|&nbsp; 🤖 Bringing generative AI into the testing lifecycle
+📍 Brazil &nbsp;|&nbsp; 🧪 10+ years in Software Quality &nbsp;|&nbsp; 📊 Data Analysis & Machine Learning &nbsp;|&nbsp; 🤖 Stateful AI Agents & LLM Architectures
 
 ---
 
 ## 👋 About me
 
-I'm a **Senior QA Engineer / SDET** with more than a decade of experience in software testing and quality assurance. I started with manual and functional testing, moved into **test automation** (Selenium, Cypress, Playwright), and today I focus on a question I find fascinating:
+I am a **Senior Quality Engineer / SDET** bridging the gap between Software Quality, **Data Analytics**, and **Applied Artificial Intelligence**. My engineering journey spans over a decade, evolving from advanced test automation frameworks (Playwright, Cypress, Selenium) to building intelligent data pipelines and predictive systems.
 
-> **How can AI make testing faster, smarter and more reliable, without giving up control over sensitive project data?**
+Today, my core focus answers a critical industry challenge:
+> **How can we leverage Advanced AI and Data Science to transition from traditional reactive testing into autonomous, highly predictable QA frameworks without compromising data governance?**
 
-That question drives most of my current work: generating test scenarios from user stories with LLMs, predicting software failures before deployment, validating test suites with AI agents, and running **local LLMs** (Ollama) so project data never has to leave the machine.
+To achieve this, I design reproducible **Data Engineering and Machine Learning pipelines** in Python. I specialize in **Unsupervised Learning** for cyber anomaly detection, **Deep Reinforcement Learning** for telemetry optimization, and **Stateful Agentic Workflows (LangGraph)** to automate complex evaluation loops. 
 
-Alongside quality engineering, I work with **data analysis and applied machine learning**. I build reproducible Jupyter notebooks that go from raw data to audited models, covering **deep reinforcement learning**, **unsupervised learning** and **association-rule mining**. The two sides feed each other: QA habits such as reproducibility, validation and skepticism about "green" results carry over into how I audit models, and data analysis gives me the tools to measure quality instead of guessing it.
+My QA rigor—rooted in reproducibility, strict validation, and data integrity—directly fuels my approach to Data Science. I don't just consume AI models; I audit and engineer them using metrics to measure system health and behavior.
 
-I'm currently pursuing an **MBA in Applied Artificial Intelligence (UNISINOS, 2026)** and I'm **open to opportunities** as a Senior QA Engineer, SDET, or Quality Specialist with an AI focus.
+🎓 **Currently pursuing an MBA in Applied Artificial Intelligence (UNISINOS, 2026)**.  
+💼 **Open to Remote Global Opportunities:** Senior QA Engineer / SDET / Data QA Specialist / AI Test Engineer.
 
 ---
 
 ## 🛠️ Tech stack
 
-| Area | Tools |
+| Domain | Core Tools & Frameworks |
 |---|---|
-| **Test automation (UI)** | Playwright (Python), Cypress (JavaScript), Selenium (Java) |
-| **API testing** | pytest, requests, Postman, RestAssured |
-| **Test management** | Zephyr (Jira) |
-| **Performance & security (foundational)** | JMeter, k6, OWASP awareness |
-| **Languages** | Python, JavaScript, Java |
-| **CI/CD & infrastructure** | Jenkins, Docker, Docker Compose, GitHub |
-| **Methodologies** | BDD, Scrum, Kanban, continuous integration |
-| **Messaging & data** | Kafka, PostgreSQL, Oracle/SQL, Azure Blob Storage |
-| **Data analysis & ML** | pandas, NumPy, SciPy, scikit-learn, mlxtend |
-| **Deep learning & RL** | PyTorch, Gymnasium, Stable-Baselines3 |
-| **Visualization & notebooks** | Matplotlib, Seaborn, Plotly, Jupyter |
-| **AI & LLMs** | LangChain, LangGraph, Ollama (local LLMs), prompt engineering |
+| **Data Analysis & ML** | Python, pandas, NumPy, SciPy, scikit-learn, mlxtend, Jupyter Notebooks |
+| **Deep Learning & AI Agents**| LangGraph, LangChain, PyTorch, Ollama (Local LLMs), Stable-Baselines3, Gymnasium |
+| **Data & Core Engineering** | SQL, PostgreSQL, Oracle, NoSQL, Apache Kafka, Azure Blob Storage, Data Modeling |
+| **Test Automation (UI & API)**| Playwright (JavaScript/Python), Cypress, Selenium (Java), pytest, requests, RestAssured |
+| **CI/CD & DevOps for QA** | Jenkins (Stage View), Docker, Docker Compose, SonarQube Quality Gates |
+| **Methodologies & Metrics** | BDD, TDD, Static Code Analysis, Data Telemetry, Data Drift, Scrum, Kanban |
+| **Data Visualization** | Plotly Express, Seaborn, Matplotlib |
 
 ---
 
 ## 🚀 Featured projects
 
-### 🔧 Test automation portfolio, built against OWASP Juice Shop
+### 📊 Data Analysis & Applied AI Architecture: [data-analysis](https://github.com)
 
-Four independent test suites that validate the same target application ([OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)), all executed by one containerized Jenkins pipeline.
+A repository of reproducible Jupyter notebooks applying machine learning algorithms to complex domains, complete with pipeline diagnostics and interactive dashboards.
 
-| Repository | What it is | Stack |
-|---|---|---|
-| [**e2e-cypress-js**](https://github.com/acorvello/e2e-cypress-js) | End-to-end UI tests for the login flow, with video and failure screenshots | Cypress, JavaScript |
-| [**e2e-playwright-python**](https://github.com/acorvello/e2e-playwright-python) | Cross-browser UI tests (Chromium, Firefox, WebKit) with HTML and JUnit reports | Playwright, pytest, Python |
-| [**e2e-selenium-java**](https://github.com/acorvello/e2e-selenium-java) | UI tests with the Page Object Model, explicit waits and screenshot on failure | Selenium 4, JUnit 5, Java, Maven |
-| [**api-testing**](https://github.com/acorvello/api-testing) | REST API tests covering products, authentication and user registration | pytest, requests, Python |
+#### 🛡️ Unsupervised Cyber Threat Intelligence Pipeline
+*   **The Challenge:** Processing massive, noisy, unlabeled corporate firewall log streams to identify stealthy infrastructure attacks.
+*   **Data Engineering:** Shifted evaluation from raw network packets to a behavioral matrix aggregated per `Source IP`.
+*   **Statistical Cleansing:** Implemented unsupervised feature selection using a low-variance filter combined with automated VIF (Variance Inflation Factor) pruning to remove geometric bias from multi-dimensional distance calculations.
+*   **Machine Learning Multi-Model Evaluation:** Compared K-Means, Hierarchical Clustering (Ward with Cophenetic validation), and DBSCAN (isolating malicious IPs as outlier noise).
+*   **Manifold Visualization:** Built interactive 2D PCA and t-SNE projections via Plotly (SOC dashboard style) to trace network anomalies.
+*   **Market Keywords:** *Unsupervised Learning, Clustering, PCA, t-SNE, Apriori, FP-Growth, Python, SQL, Threat Intelligence*.
 
-**What makes it more than four test folders:**
-
-- 🐳 **Everything runs in Docker.** The target app, each test runner, the Selenium browser and Jenkins itself are containers, so the whole environment is reproducible on any machine.
-- 🔁 **One Jenkins pipeline** brings up the app, runs the four suites independently (a failure in one never blocks the others) and tears everything down.
-- 📊 **Unified reporting.** JUnit results from all suites are merged into Jenkins' native test report, while videos, screenshots and HTML reports are archived per build.
-- 🧩 **Test code lives in separate repositories** from the infrastructure, the same way real teams separate them.
-
-```mermaid
-flowchart LR
-    J[Jenkins pipeline] --> D[Docker Compose]
-    D --> A[OWASP Juice Shop]
-    D --> C[Cypress suite]
-    D --> P[Playwright suite]
-    D --> S[Selenium + JUnit suite]
-    D --> T[API test suite]
-    C --> R[Unified JUnit report]
-    P --> R
-    S --> R
-    T --> R
-    C --> V[Videos & screenshots]
-    P --> H[HTML reports]
-    S --> V
-```
-
-### 📊 Data analysis & applied AI: [data-analysis](https://github.com/acorvello/data-analysis)
-
-A collection of reproducible Jupyter notebooks that apply AI methods to very different domains, each with diagnostics and visualizations built in. Two examples:
-
-#### 🚀 Lunar Lander v3: deep reinforcement learning benchmark
-
-Trains and audits agents that read spacecraft telemetry and fire thrusters in a coordinated way to land safely, using the Gymnasium Lunar Lander v3 environment.
-
-- **Three algorithm families compared:** DQN (value-based), PPO (policy gradient) and A2C (actor-critic), all from Stable-Baselines3, trained for 300k timesteps under independent seeds.
-- **Stable training:** adaptive reward normalization (`VecNormalize`) tames the noisy +100 / -100 landing and crash rewards.
-- **100% in-memory pipeline:** environments, buffers, logs and convergence history live in RAM, with no disk writes during training.
-- **Policy health auditing:** the Shannon entropy of each agent's actions measures how much behavioral variety is left after training, flagging *policy collapse*.
+#### 🚀 Lunar Lander v3: Deep Reinforcement Learning Benchmark
+*   **Architecture:** Evaluated DQN, PPO, and A2C algorithms using Stable-Baselines3 and Gymnasium over 300k timesteps under independent seeds.
+*   **Data Pipeline:** Configured a 100% in-memory data stream with adaptive reward normalization (`VecNormalize`) to stabilize training convergence.
+*   **Model Auditing:** Utilized Shannon Entropy tracking to monitor policy degradation and prevent neural network policy collapse.
 
 | Algorithm | Mean reward | Safe landing rate | Action entropy | Policy health |
 |:---:|:---:|:---:|:---:|:---:|
@@ -95,59 +61,64 @@ Trains and audits agents that read spacecraft telemetry and fire thrusters in a 
 | **A2C** | -42.10 | 15.0% | 1.10 bits | Late degradation |
 | **DQN** | -125.40 | 0.0% | 0.32 bits | Collapse alert |
 
-#### 🛡️ Unsupervised cyber threat intelligence
+---
 
-Turns raw, unlabeled corporate firewall logs into entity-level behavior profiles and surfaces signs of network reconnaissance and automated scanning.
+### 🤖 AI-Agentic Testing & Generative QA Ecosystem
 
-- **Behavior profiles per source IP:** the view shifts from individual packets to a behavioral matrix per `Src IP`.
-- **Unsupervised feature selection:** a low-variance filter plus automatic pruning of highly correlated features (above 0.85) removes geometric bias from distance calculations.
-- **Three clustering families compared:** K-Means, hierarchical clustering (Ward) and DBSCAN, ranked with Silhouette, Davies-Bouldin and Calinski-Harabasz. DBSCAN isolates anomalies as standalone noise.
-- **Interactive manifold views:** 2D PCA and t-SNE with Plotly, with tooltips showing each suspicious source IP.
-- **Association-rule mining:** Apriori and FP-Growth recover the same network signatures, with a lift above 7.
+A suite of frameworks where Generative AI, Large Language Models, and graph computing intersect with automated software quality.
 
-**Tools:** Python, pandas, NumPy, scikit-learn, SciPy, mlxtend, PyTorch, Gymnasium, Stable-Baselines3, Matplotlib, Seaborn, Plotly, Jupyter.
-
-### 🤖 AI applied to software quality
-
-Projects where generative AI and machine learning meet testing:
-
-- **AI-generated test scenarios**: automatically producing test cases from user stories using LLMs.
-- **Cypress suite validator**: an agent built with **LangChain + LangGraph** that reviews Cypress test suites for best practices, flaky logic and fragile selectors, then produces a structured report.
-- **Failure prediction model**: a model trained on test execution logs to estimate the probability of a software failure *before* deployment (academic project, MBA in Applied AI).
-- **Local AI for test development**: running **Ollama** with a local model, connected to VS Code, to help write automation code while keeping project data under my own governance.
+*   **Validation in Cypress using LangGraph:** An advanced **Agentic Workflow** built with LangChain and LangGraph in Python. It orchestrates stateful, multi-node loops (`START → nodes → decide() → report → END`) calling OpenAI APIs to audit Cypress files for flakiness, weak selectors, and code smells, generating structural Markdown verdicts.
+*   **Predictive Software Error Model:** A machine learning pipeline trained on raw CI/CD telemetry logs to run pattern recognition and predict software failure probabilities *before* deployment stages.
+*   **Performance Optimization in Test Case Generation:** An enterprise-level generative solution utilizing the **Model Context Protocol (MCP)** and LLMs to read user stories, extract data schemas, and automatically generate high-coverage UI test scripts for Playwright.
+*   **Local AI Governance (Ollama):** Local LLM orchestration (Ollama + Qwen 3) combined with Cline to safely expedite code generation without exposing sensitive corporate telemetry.
 
 ---
 
-## 🧠 What I've learned along the way
+### 🔧 Multi-Framework QA Pipeline & Static Code Analysis (SonarQube)
 
-The most valuable part of these projects isn't the green pipeline or the final chart, it's the debugging and auditing that got them there. A few lessons that came straight from real work:
+A production-grade CI/CD environment built to execute parallelized testing frameworks against the [OWASP Juice Shop](https://owasp.org) target application.
 
-- **Visibility is not the same as clickability.** Modal overlays and animated menus can make an element "visible" but unclickable. Cypress and Playwright handle this differently (`force`, `trigger` and `dispatch_event` are *not* interchangeable), and knowing why matters more than knowing the flag.
-- **Retry-ability beats fixed waits.** Replacing `cy.wait(1000)` with an assertion that Cypress retries automatically removed an entire class of flaky failures.
-- **Pin your versions.** An unpinned `@playwright/test` silently drifted away from the browsers baked into the Docker image and broke every test at once.
-- **Containers talking to containers is its own problem.** Running Docker from inside Jenkins on Windows required understanding how paths are resolved by the daemon, not just by the client.
-- **Read the screenshot.** After several rounds of educated guessing, a single failure screenshot revealed the real cause in seconds.
-- **Look beyond the headline metric.** In the reinforcement-learning benchmark, tracking the entropy of each agent's actions adds a second view of its health on top of the reward.
-- **Clean the features before measuring distance.** In the clustering pipeline, removing highly correlated variables keeps distance-based algorithms from being biased by redundant signals.
+```mermaid
+flowchart LR
+    J[Jenkins Pipeline] --> D[Docker Compose]
+    D --> A[OWASP Juice Shop]
+    D --> C[Cypress Suite]
+    D --> P[Playwright Suite]
+    D --> S[Selenium + JUnit]
+    D --> T[Python API Suite]
+    C & P & S & T --> SQ[SonarQube Quality Gate]
+    SQ --> R[Unified JUnit & Telemetry Report]
+```
+
+*   **DevOps Orchestration:** Entirely containerized via Docker and Docker Compose (Jenkins server, test runners, headless browsers, target app), ensuring 100% environment parity.
+*   **Static Code Analysis:** Embedded a **SonarQube Quality Gate** within the Jenkins Stage View to enforce structural code governance, security gates, and code metrics across multi-language repositories (Python, JavaScript, Java).
+*   **Data Telemetry:** Designed the execution workflow to aggregate system logs, test artifacts (videos/screenshots), and unified JUnit xml metrics to serve as the structural dataset for predictive AI evaluation.
+
+---
+
+## 🧠 Core Engineering Lessons
+
+*   **Features Cleanliness Over Distance:** In clustering pipelines, removing highly correlated variables using VIF is non-negotiable; redundant signals heavily warp distance-based algorithms like K-Means.
+*   **Model Evaluation Beyond Accuracy:** Tracking auxiliary metrics like Shannon Action Entropy is vital to audit neural network health, revealing policy traps that standard reward tracking misses.
+*   **Static Governance Prevents Debt:** Injecting automated code scanners (SonarQube) directly inside the CI/CD pipeline stops brittle test code and dynamic locator flakiness from entering production repositories.
+*   **Retry-ability > Fixed Waits:** Eliminating arbitrary pauses (like `cy.wait`) in favor of asynchronous state pooling completely stabilizes multi-container testing infrastructure.
 
 ---
 
 ## 🎓 Education
 
-- **MBA in Applied Artificial Intelligence**: UNISINOS (in progress, 2026)
-- **Postgraduate degree in Project Management**: UNISINOS (2022)
-- **Bachelor's degree in Information Systems**: UNISINOS (2010)
+*   **MBA in Applied Artificial Intelligence** – UNISINOS (In progress, 2026)
+*   **Postgraduate Degree in Project Management** – UNISINOS (2022)
+*   **Bachelor’s Degree in Information Systems** – UNISINOS (2010)
 
 ---
 
 ## 📫 Let's connect
 
-I'm open to opportunities in **software quality engineering, test automation and AI-driven testing**, and always happy to talk about QA, automation strategy, data analysis, or using AI responsibly.
-
-- 💼 **LinkedIn:** [linkedin.com/in/acorvello](https://www.linkedin.com/in/acorvello)
+- 💼 **LinkedIn:** [://linkedin.com](https://www.://linkedin.com)
 - 📧 **Email:** [alexsander.corvello@gmail.com](mailto:alexsander.corvello@gmail.com)
-- 🐙 **GitHub:** [@acorvello](https://github.com/acorvello)
+- 🐙 **GitHub:** [@acorvello](https://github.com)
 
 ---
 
-<sub>Keywords: Senior QA Engineer, SDET, Test Automation Engineer, Quality Engineering, Data Analysis, Machine Learning, Deep Reinforcement Learning, Unsupervised Learning, Clustering, Anomaly Detection, Playwright, Cypress, Selenium, pytest, API Testing, Jenkins, Docker, CI/CD, BDD, AI in Software Testing, Generative AI Testing, LLM Test Generation, LangChain, LangGraph, Ollama, scikit-learn, pandas, PyTorch, Stable-Baselines3, Plotly, Jupyter, Brazil.</sub>
+<sub>Keywords: Senior QA Engineer, SDET, Data QA Engineer, Quality Engineering, Data Analysis, Machine Learning, Deep Reinforcement Learning, Unsupervised Learning, Clustering, Anomaly Detection, VIF, SonarQube, Quality Gates, Static Code Analysis, Model Context Protocol, MCP, Playwright, Cypress, Selenium, Jenkins, Docker, CI/CD Pipelines, Agentic Workflows, LangChain, LangGraph, Ollama, TensorFlow, PyTorch, pandas, scikit-learn, Remote Engineer.</sub>

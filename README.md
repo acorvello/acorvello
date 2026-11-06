@@ -32,7 +32,7 @@ My QA rigor—rooted in reproducibility, strict validation, and data integrity�
 | **Test Automation (UI & API)**| Playwright (JavaScript/Python), Cypress, Selenium (Java), pytest, requests, RestAssured |
 | **CI/CD & DevOps for QA** | Jenkins (Stage View), Docker, Docker Compose, SonarQube Quality Gates |
 | **Methodologies & Metrics** | BDD, TDD, Static Code Analysis, Data Telemetry, Data Drift, Scrum, Kanban |
-| **Data Visualization** | Plotly Express, Seaborn, Matplotlib |
+| **Data Visualization** | Plotly Express, Seaborn, Matplotlib, OpenCV |
 
 ---
 
@@ -42,14 +42,24 @@ Instead of isolated repositories, my core work is engineered as an **interconnec
 
 ```mermaid
 flowchart TD
-    Req[Business User Stories] --> P1[1. Performance Improvement: Test Case Gen]
-    P1 -->|Auto-Generated Scripts| P2[2. Multi-Framework QA Pipeline & SonarQube]
-    P2 -->|Telemetry Data & Logs| P3[3. Software Error Prediction Pipeline]
-    P2 -->|Runtime Failures & Logs| ACV[Automation Code Validator: Local AI Graph]
+    Req[Business User Stories] --> P1[1. Performance Improvement:<br>Test Case Gen]
+    P1 -->|Auto-Generated Scripts| P2[2. Multi-Framework QA<br>Pipeline & SonarQube]
+
+    subgraph ShiftRight [Intelligent Operations & Analytics Layer]
+        direction LR
+        ACV[Automation Code Validator:<br>Local AI Graph] -->|Validation &<br>Healing Data| DB[4. Dashboard<br>Metrics Quality]
+        DB -->|Consolidated<br>Telemetry| P3[3. Software Error<br>Prediction Pipeline]
+    end
+
+    P2 -->|Runtime Failures & Logs| ACV
+    P2 -->|Raw Execution Metrics| DB
+    P2 -->|Telemetry Data & Logs| P3
+    
     P3 -->|Predictive Risk Feedback Loops| P1
-    P2 -->|Raw Execution Metrics| DB[4. Dashboard Metrics Quality]
+
     style ACV fill:#1f2d3d,stroke:#38bdf8,stroke-width:2px
     style DB fill:#111827,stroke:#10b981,stroke-width:1px,stroke-dasharray: 5 5
+    style ShiftRight fill:transparent,stroke:#374151,stroke-width:1px,stroke-dasharray: 3 3
 ```
 
 ---
@@ -106,6 +116,11 @@ A standalone, advanced repository demonstrating predictive engineering architect
 *   **Data Pipeline:** Configured a 100% in-memory data stream with adaptive reward normalization (`VecNormalize`) to stabilize training convergence.
 *   **Model Auditing:** Utilized Shannon Entropy tracking to monitor policy degradation and prevent neural network policy collapse.
 
+#### 🧬 Biomedical Semantic Segmentation Pipeline
+*   **Architecture:** Symmetrical U-Net architecture with multi-scale Skip Connections for cartilage and boundary tracking in knee radiographs.
+*   **Hardware Optimization:** High-speed `VRAMKneeDataset` caching layer running directly inside GPU architectures alongside specialized target-aware augmentations via `torchvision.transforms.v2`.
+*   **Model Metrics:** Reached a **0.9569 mIoU** and **0.9772 Dice Coefficient** on unseen patient datasets.
+
 ---
 
 ## 🧠 Core Engineering Lessons
@@ -117,20 +132,20 @@ A standalone, advanced repository demonstrating predictive engineering architect
 
 ---
 
-## 🎓 Education
+🎓 Education
 
-*   **MBA in Applied Artificial Intelligence** – UNISINOS (In progress, 2026)
-*   **Postgraduate Degree in Project Management** – UNISINOS (2022)
-*   **Bachelor’s Degree in Information Systems** – UNISINOS (2010)
-
----
-
-## 📫 Let's Connect
-
-- 💼 **LinkedIn:** [linkedin.com/in/alexsandercorvello](https://www.linkedin.com)
-- 📧 **Email:** [alexsander.corvello@gmail.com](mailto:alexsander.corvello@gmail.com)
-- 🐙 **GitHub:** [@acorvello](https://github.com)
+• MBA in Applied Artificial Intelligence – UNISINOS (In progress, 2026)
+• Postgraduate Degree in Project Management – UNISINOS (2022)
+• Bachelor’s Degree in Information Systems – UNISINOS (2010)
 
 ---
 
-<sub>Keywords: Senior QA Engineer, SDET, Data QA Engineer, Quality Engineering, Data Analysis, Machine Learning, Deep Reinforcement Learning, Unsupervised Learning, Clustering, Anomaly Detection, VIF, SonarQube, Quality Gates, Static Code Analysis, Model Context Protocol, MCP, Playwright, Cypress, Selenium, Jenkins, Docker, CI/CD Pipelines, Agentic Workflows, LangGraph, Ollama, Pydantic, TensorFlow, PyTorch, pandas, scikit-learn, Remote Engineer.</sub>
+📫 Let's Connect
+
+• 💼 LinkedIn: linkedin.com/in/alexsandercorvello
+• 📧 Email: alexsander.corvello@gmail.com
+• 🐙 GitHub: @acorvello
+
+---
+
+Keywords: Senior QA Engineer, SDET, Data QA Engineer, Quality Engineering, Data Analysis, Machine Learning, Deep Reinforcement Learning, Unsupervised Learning, Clustering, Anomaly Detection, VIF, SonarQube, Quality Gates, Static Code Analysis, Model Context Protocol, MCP, Playwright, Cypress, Selenium, Jenkins, Docker, CI/CD Pipelines, Agentic Workflows, LangGraph, Ollama, Pydantic, TensorFlow, PyTorch, pandas, scikit-learn, Remote Engineer.

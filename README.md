@@ -1,24 +1,31 @@
 # Alexsander Corvello da Silveira
 
-### Senior QA Engineer · Data QA · AI Engineer · Applied Machine Learning
+### Senior QA Engineer · SDET · AI Test Engineer · Applied Machine Learning
 
-📍 Brazil &nbsp;|&nbsp; 🧪 10+ years in Software Quality &nbsp;|&nbsp; 📊 Data Analysis & Machine Learning &nbsp;|&nbsp; 🤖 Stateful AI Agents & Local LLM Architectures
+📍 Brazil (UTC-3) &nbsp;|&nbsp; 🧪 10+ years in Software Quality &nbsp;|&nbsp; 🤖 Stateful AI Agents & Local LLMs &nbsp;|&nbsp; 📊 Data Analysis & ML
+
+💼 **Open to Remote Global Opportunities:** Senior QA Engineer / SDET / Data QA Specialist / AI Test Engineer.
+🎓 **Currently pursuing an MBA in Applied Artificial Intelligence (UNISINOS, 2026).**
 
 ---
 
 ## 👋 About Me
 
-I am a **Senior Quality Engineer / SDET** bridging the gap between Software Quality, **Data Analytics**, and **Applied Artificial Intelligence**. My engineering journey spans over a decade, evolving from advanced test automation frameworks (Playwright, Cypress, Selenium) to building intelligent data pipelines, predictive systems, and deterministic AI agents.
+I am a **Senior Quality Engineer / SDET** with 10+ years of experience, evolving from advanced test automation (Playwright, Cypress, Selenium) to **Python data pipelines, predictive models and AI agents that run locally**.
 
-Today, my core focus answers a critical industry challenge:
-> **How can we leverage Advanced AI and Data Science to transition from traditional reactive testing into autonomous, highly predictable QA frameworks without compromising data governance?**
+My core question:
+> **How can we use AI and Data Science to move from reactive testing to predictable QA, without compromising data governance?**
 
-To achieve this, I design reproducible **Data Engineering and Machine Learning pipelines** in Python. I specialize in **Unsupervised Learning** for cyber anomaly detection, **Deep Reinforcement Learning** for telemetry optimization, and **Stateful Agentic Workflows (LangGraph)** to automate complex evaluation loops locally. 
+My QA rigor, rooted in reproducibility, strict validation and data integrity, shapes how I approach Data Science: I don't just consume AI models, I audit them with explicit metrics.
 
-My QA rigor—rooted in reproducibility, strict validation, and data integrity—directly fuels my approach to Data Science. I don't just consume AI models; I audit and engineer them using strict metrics to measure system health and behavior.
+<details>
+<summary><b>More about my focus</b></summary>
 
-🎓 **Currently pursuing an MBA in Applied Artificial Intelligence (UNISINOS, 2026)**.  
-💼 **Open to Remote Global Opportunities:** Senior QA Engineer / SDET / Data QA Specialist / AI Test Engineer.
+<br/>
+
+I design reproducible **Data Engineering and Machine Learning pipelines** in Python. I work with **Unsupervised Learning** for cyber anomaly detection, **Deep Reinforcement Learning** benchmarks, and **Stateful Agentic Workflows (LangGraph)** with local LLMs (Ollama) to automate evaluation loops while keeping project data on-premises.
+
+</details>
 
 ---
 
@@ -27,125 +34,128 @@ My QA rigor—rooted in reproducibility, strict validation, and data integrity�
 | Domain | Core Tools & Frameworks |
 |---|---|
 | **Data Analysis & ML** | Python, pandas, NumPy, SciPy, scikit-learn, mlxtend, Jupyter Notebooks |
-| **Deep Learning & AI Agents**| LangGraph, Pydantic, PyTorch, Ollama (Local LLMs), Stable-Baselines3, Gymnasium |
-| **Data & Core Engineering** | SQL, PostgreSQL, Oracle, NoSQL, Apache Kafka, Azure Blob Storage, Data Modeling |
-| **Test Automation (UI & API)**| Playwright (JavaScript/Python), Cypress, Selenium (Java), pytest, requests, RestAssured |
+| **Deep Learning & AI Agents** | LangGraph, Pydantic, PyTorch, Ollama (Local LLMs), Stable-Baselines3, Gymnasium |
+| **Data & Core Engineering** | SQL, PostgreSQL, Oracle, Apache Kafka, Azure Blob Storage, Data Modeling |
+| **Test Automation (UI & API)** | Playwright (JavaScript/Python), Cypress, Selenium (Java), pytest, requests, RestAssured |
 | **CI/CD & DevOps for QA** | Jenkins (Stage View), Docker, Docker Compose, SonarQube Quality Gates |
 | **Methodologies & Metrics** | BDD, TDD, Static Code Analysis, Data Telemetry, Data Drift, Scrum, Kanban |
 | **Data Visualization** | Plotly Express, Seaborn, Matplotlib, OpenCV |
 
 ---
 
-## 🚀 Featured Projects: The Autonomous QA Ecosystem
+## 🚀 Featured Projects: The Intelligent QA Ecosystem
 
-Instead of isolated repositories, my core work is engineered as an **interconnected, closed-loop AI & QA Data Ecosystem**. Each project demonstrates a specialized technical pillar (AI Engineering, Data Science, or DevOps) serving a continuous software delivery lifecycle.
+Instead of isolated repositories, my work is organized as an **interconnected AI & QA data ecosystem**. Each project covers one technical pillar (AI Engineering, Data Science or DevOps) of a continuous delivery lifecycle.
+
+**Status legend:** ✅ Available &nbsp;·&nbsp; 🚧 In development / R&D &nbsp;·&nbsp; 💡 Planned
 
 ```mermaid
 flowchart TD
-    Req[Business User Stories] --> P1[1. Performance Improvement:<br>Test Case Gen]
-    P1 -->|Auto-Generated Scripts| P2[2. Multi-Framework QA<br>Pipeline & SonarQube]
+    Req["Business User Stories"] --> Gen["Test Case Generation<br/>MCP and LLMs"]
+    Gen -->|"Generated test scripts"| Pipe["Multi-Framework QA Pipeline<br/>Jenkins, Docker, SonarQube"]
 
-    subgraph ShiftRight [Intelligent Operations & Analytics Layer]
+    subgraph Ops ["Intelligent Operations and Analytics Layer"]
         direction LR
-        ACV[Automation Code Validator:<br>Local AI Graph] -->|Validation &<br>Healing Data| DB[4. Dashboard<br>Metrics Quality]
-        DB -->|Consolidated<br>Telemetry| P3[3. Software Error<br>Prediction Pipeline]
+        ACV["Automation Code Validator<br/>LangGraph and Ollama"] -->|"Validation data"| Dash["Dashboard Metrics Quality"]
+        Dash -->|"Consolidated telemetry"| Pred["Software Error<br/>Prediction Model"]
     end
 
-    P2 -->|Runtime Failures & Logs| ACV
-    P2 -->|Raw Execution Metrics| DB
-    P2 -->|Telemetry Data & Logs| P3
-    
-    P3 -->|Predictive Risk Feedback Loops| P1
+    Pipe -->|"Failure logs"| ACV
+    Pipe -->|"Execution metrics"| Dash
+    Pipe -->|"Telemetry and logs"| Pred
+    Pred -->|"Risk feedback"| Gen
 
     style ACV fill:#1f2d3d,stroke:#38bdf8,stroke-width:2px
-    style DB fill:#111827,stroke:#10b981,stroke-width:1px,stroke-dasharray: 5 5
-    style ShiftRight fill:transparent,stroke:#374151,stroke-width:1px,stroke-dasharray: 3 3
+    style Dash fill:#111827,stroke:#10b981,stroke-width:1px,stroke-dasharray: 5 5
+    style Ops fill:transparent,stroke:#374151,stroke-width:1px,stroke-dasharray: 3 3
 ```
 
 ---
 
 ### 🤖 1. Shift-Left: Intelligent Generation & Execution
 
-#### 🔹 Performance Improvement in Test Case Generation *(In Active Development)*
-*   **The Ecosystem Role:** **The Genesis Layer.** Operates before the pipeline execution by ingesting business requirements and generating deterministic test structures.
-*   **Engineering:** An enterprise-grade generative solution utilizing the **Model Context Protocol (MCP)** and LLMs to parse user stories, extract data schemas, and automatically generate high-coverage UI test scripts for Playwright.
-*   **Ecosystem Feedback:** Dynamically refines its generation weights based on failure risk telemetry fed back from the *Software Error Prediction* phase.
+#### 🚧 [AI Test Case Generation from User Stories (MCP + Playwright)](https://github.com/acorvello/REPLACE-WITH-REPO-NAME)
+*   **Ecosystem role:** The genesis layer. Runs before pipeline execution, turning business requirements into structured test scripts.
+*   **Engineering:** A generative solution using the **Model Context Protocol (MCP)** and LLMs to parse user stories, extract data schemas and generate UI test scripts for Playwright.
+*   **Feedback loop:** Designed to take failure-risk signals from the *Software Error Prediction* phase to prioritize coverage.
 
-#### 🔹 Multi-Framework QA Pipeline & Static Code Analysis (SonarQube)
-*   **The Ecosystem Role:** **The Execution & Telemetry Engine.** Containerizes, runs, and monitors the generated test suites, collecting unified telemetry.
-*   **DevOps Orchestration:** Entirely containerized via Docker Compose (Jenkins, parallel test runners for Playwright/Cypress/Selenium, and target application) ensuring 100% environment parity.
-*   **Data Aggregation:** Embedded SonarQube Quality Gates within Jenkins to enforce code governance. The pipeline aggregates system logs, videos, screenshots, and unified JUnit XML metrics to serve as the **core structural dataset** for the AI modules.
+#### ✅ [Multi-Framework QA Pipeline & Static Code Analysis (SonarQube)](https://github.com/acorvello/docker-test-env)
+*   **Ecosystem role:** The execution and telemetry engine. Containerizes, runs and monitors test suites, collecting unified telemetry.
+*   **DevOps orchestration:** Docker Compose environment (Jenkins, parallel runners for Playwright, Cypress and API tests, and a target application) for consistent environments across runs.
+*   **Data aggregation:** SonarQube Quality Gates inside Jenkins enforce code governance. The pipeline aggregates logs, videos, screenshots and JUnit XML metrics, forming the **core dataset** for the AI modules.
+*   **Test repositories:** [e2e-cypress-js](https://github.com/acorvello/e2e-cypress-js) · [e2e-playwright-python](https://github.com/acorvello/e2e-playwright-python) · [api-testing](https://github.com/acorvello/api-testing)
 
 ---
 
-### 🧠 2. Shift-Right: Intelligent Healing & Predictive Analytics
+### 🧠 2. Shift-Right: Log Analysis & Predictive Analytics
 
-#### 🟢 Automation Code Validator (LangGraph & Ollama)
-*   **The Ecosystem Role:** **The Autonomous Pipeline Guardian.** Intercepts runtime errors directly inside the execution stage to heal flakiness without manual overhead.
-*   **AI Architecture:** An advanced **Stateful Agentic Workflow** built with LangGraph in Python. It orchestrates multi-node loops (`Parser → Evaluator → Fixer`) running open-source LLMs locally via Ollama to evaluate automated test logs for weak selectors or infrastructure timeouts, enforcing deterministic data outputs with strict Pydantic schemas.
+#### ✅ [Automation Code Validator (LangGraph & Ollama)](https://github.com/acorvello/REPLACE-WITH-REPO-NAME)
+*   **Ecosystem role:** The failure-triage layer. Analyzes automation logs and recommends fixes without manual log reading.
+*   **AI architecture:** A **stateful agentic workflow** built with LangGraph in Python (`Parser → Evaluator → Fixer`), running open-source LLMs locally via Ollama. It classifies failures such as ambiguous or flaky selectors and infrastructure timeouts, and recommends non-destructive locator fixes, falling back to `NO_SAFE_FIX` when context is ambiguous.
+*   **Deterministic output:** Strict Pydantic schemas and heuristics validate and override raw LLM output.
 
-#### 🔹 Predictive Software Error Model *(R&D Phase)*
-*   **The Ecosystem Role:** **The Continuous Feedback Loop.** Analyzes historic results to anticipate future vulnerabilities.
-*   **Machine Learning:** A predictive pipeline trained on the raw CI/CD telemetry logs generated by the execution suite. It executes pattern recognition to predict software failure probabilities *before* deployment.
-*   **Closing the Loop:** Feeds behavioral failure patterns back into the *Test Case Generation* engine, prompting it to focus test coverage on historically error-prone business rules and implementation paths.
+#### 🚧 [Predictive Software Error Model](https://github.com/acorvello/REPLACE-WITH-REPO-NAME) *(R&D phase)*
+*   **Ecosystem role:** The continuous feedback loop. Analyzes historical results to anticipate failures.
+*   **Machine learning:** A predictive pipeline trained on CI/CD telemetry logs, estimating failure probability *before* deployment.
+*   **Closing the loop:** Feeds failure patterns back into test case generation to focus coverage on historically error-prone rules and paths.
 
 ---
 
 ### 📊 3. Centralized Analytics Layer
 
-#### 🔹 Dashboard Metrics Quality *(Planned / Concept Phase)*
-*   **The Ecosystem Role:** **The Unified Insights Hub.** Consolidates telemetry data collected across generation, execution, and prediction layers into actionable intelligence.
-*   **Engineering Focus:** Planned interface designed to translate complex QA metrics, data drift, and test automation coverage patterns into business-ready health indicators and pipeline performance dashboards.
+#### 💡 Dashboard Metrics Quality *(planned)*
+*   **Ecosystem role:** The unified insights hub, consolidating telemetry from generation, execution and prediction.
+*   **Engineering focus:** An interface that translates QA metrics, data drift and automation coverage into business-ready health indicators.
 
 ---
 
 ## 📈 Specialized Data Science Portfolio
 
-### 📊 Advanced Artificial Intelligence Portfolio - Data Analysis
-A standalone, advanced repository demonstrating predictive engineering architectures, unsupervised cybersecurity pipelines, and deep reinforcement learning benchmarks with structured statistical metrics.
+### 📊 [Advanced Artificial Intelligence Portfolio: Data Analysis](https://github.com/acorvello/data-analysis)
+A standalone repository with three reproducible notebook projects: unsupervised cybersecurity analytics, a deep reinforcement learning benchmark, and biomedical image segmentation, each with structured metrics.
 
 #### 🛡️ Unsupervised Cyber Threat Intelligence Pipeline
-*   **The Challenge:** Processing massive, noisy, unlabeled corporate firewall log streams to identify stealthy infrastructure attacks.
-*   **Data Engineering:** Shifted evaluation from raw network packets to a behavioral matrix aggregated per `Source IP` using Python and SQL.
-*   **Statistical Cleansing:** Implemented unsupervised feature selection using a low-variance filter combined with automated VIF (Variance Inflation Factor) pruning to remove geometric bias from multi-dimensional distance calculations.
-*   **Machine Learning Multi-Model Evaluation:** Compared K-Means, Hierarchical Clustering (Ward with Cophenetic validation), and DBSCAN (isolating malicious IPs as outlier noise).
-*   **Manifold Visualization:** Built interactive 2D PCA and t-SNE projections via Plotly (SOC dashboard style) to trace network anomalies.
+*   **The challenge:** Processing noisy, unlabeled firewall logs to identify stealthy infrastructure attacks.
+*   **Data engineering:** Shifted the analysis from raw packets to a behavioral matrix aggregated per `Source IP`, using Python and SQL.
+*   **Statistical cleansing:** Low-variance filtering plus automated multicollinearity pruning (VIF / correlation threshold) to remove geometric bias from distance calculations.
+*   **Multi-model evaluation:** K-Means, Hierarchical Clustering (Ward, with cophenetic validation) and DBSCAN (isolating malicious IPs as noise).
+*   **Visualization:** Interactive 2D PCA and t-SNE projections in Plotly, in a SOC-dashboard style.
 
 #### 🚀 Lunar Lander v3: Deep Reinforcement Learning Benchmark
-*   **Architecture:** Evaluated DQN, PPO, and A2C algorithms using Stable-Baselines3 and Gymnasium over 300k timesteps under independent seeds.
-*   **Data Pipeline:** Configured a 100% in-memory data stream with adaptive reward normalization (`VecNormalize`) to stabilize training convergence.
-*   **Model Auditing:** Utilized Shannon Entropy tracking to monitor policy degradation and prevent neural network policy collapse.
+*   **Architecture:** DQN, PPO and A2C compared with Stable-Baselines3 and Gymnasium over 300k timesteps and independent seeds (discrete-action environment).
+*   **Data pipeline:** In-memory training stream with adaptive reward normalization (`VecNormalize`).
+*   **Model auditing:** Shannon Entropy tracking to detect policy degradation and policy collapse.
 
 #### 🧬 Biomedical Semantic Segmentation Pipeline
-*   **Architecture:** Symmetrical U-Net architecture with multi-scale Skip Connections for cartilage and boundary tracking in knee radiographs.
-*   **Hardware Optimization:** High-speed `VRAMKneeDataset` caching layer running directly inside GPU architectures alongside specialized target-aware augmentations via `torchvision.transforms.v2`.
-*   **Model Metrics:** Reached a **0.9569 mIoU** and **0.9772 Dice Coefficient** on unseen patient datasets.
+*   **Architecture:** U-Net with multi-scale skip connections for joint-space boundary tracking in knee radiographs.
+*   **Hardware optimization:** `VRAMKneeDataset` GPU caching layer and target-aware augmentations with `torchvision.transforms.v2`.
+*   **Metrics:** **0.9569 mIoU** and **0.9772 Dice** on the held-out test set.
 
 ---
 
 ## 🧠 Core Engineering Lessons
 
-*   **Features Cleanliness Over Distance:** In clustering pipelines, removing highly correlated variables using VIF is non-negotiable; redundant signals heavily warp distance-based algorithms like K-Means.
-*   **Model Evaluation Beyond Accuracy:** Tracking auxiliary metrics like Shannon Action Entropy is vital to audit neural network health, revealing policy traps that standard reward tracking misses.
-*   **Static Governance Prevents Debt:** Injecting automated code scanners (SonarQube) directly inside the CI/CD pipeline stops brittle test code and dynamic locator flakiness from entering production repositories.
-*   **Retry-ability > Fixed Waits:** Eliminating arbitrary pauses (like `cy.wait`) in favor of asynchronous state pooling completely stabilizes multi-container testing infrastructure.
+*   **Feature cleanliness over distance:** In clustering pipelines, pruning highly correlated variables matters; redundant signals warp distance-based algorithms like K-Means.
+*   **Model evaluation beyond accuracy:** Auxiliary metrics such as Shannon action entropy reveal policy traps that reward tracking alone misses.
+*   **Static governance prevents debt:** Running code scanners (SonarQube) inside CI/CD keeps brittle test code and fragile locators out of the main branch.
+*   **Retry-ability over fixed waits:** Replacing arbitrary pauses (like `cy.wait`) with asynchronous state polling substantially stabilizes multi-container test infrastructure.
 
 ---
 
-🎓 Education
+## 🎓 Education
 
-• MBA in Applied Artificial Intelligence – UNISINOS (In progress, 2026)
-• Postgraduate Degree in Project Management – UNISINOS (2022)
-• Bachelor’s Degree in Information Systems – UNISINOS (2010)
-
----
-
-📫 Let's Connect
-
-• 💼 LinkedIn: linkedin.com/in/acorvello
-• 📧 Email: alexsander.corvello@gmail.com
-• 🐙 GitHub: @acorvello
+*   MBA in Applied Artificial Intelligence, UNISINOS (in progress, 2026)
+*   Postgraduate Degree in Project Management, UNISINOS (2022)
+*   Bachelor's Degree in Information Systems, UNISINOS (2010)
 
 ---
 
-Keywords: Senior QA Engineer, SDET, Data QA Engineer, Quality Engineering, Data Analysis, Machine Learning, Deep Reinforcement Learning, Unsupervised Learning, Clustering, Anomaly Detection, VIF, SonarQube, Quality Gates, Static Code Analysis, Model Context Protocol, MCP, Playwright, Cypress, Selenium, Jenkins, Docker, CI/CD Pipelines, Agentic Workflows, LangGraph, Ollama, Pydantic, TensorFlow, PyTorch, pandas, scikit-learn, Remote Engineer.
+## 📫 Let's Connect
+
+*   💼 LinkedIn: [linkedin.com/in/acorvello](https://linkedin.com/in/acorvello)
+*   📧 Email: [alexsander.corvello@gmail.com](mailto:alexsander.corvello@gmail.com)
+*   🐙 GitHub: [@acorvello](https://github.com/acorvello)
+
+---
+
+**Core competencies:** Test Automation (Playwright, Cypress, Selenium) · CI/CD (Jenkins, Docker, SonarQube) · AI Agents (LangGraph, Ollama, MCP) · Machine Learning (scikit-learn, PyTorch) · Data Quality

@@ -142,7 +142,7 @@ A standalone, advanced repository demonstrating predictive engineering architect
 
 📫 Let's Connect
 
-• 💼 LinkedIn: linkedin.com/in/alexsandercorvello
+• 💼 LinkedIn: linkedin.com/in/acorvello
 • 📧 Email: alexsander.corvello@gmail.com
 • 🐙 GitHub: @acorvello
 

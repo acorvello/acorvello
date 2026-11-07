@@ -1,4 +1,4 @@
-# Alexsander Corvello 
+# Alexsander Corvello da Silveira
 
 ### Senior QA Engineer · SDET · AI Test Engineer · Applied Machine Learning
 
@@ -64,24 +64,31 @@ Instead of isolated repositories, my work is organized as an **interconnected AI
 **Status legend:** ✅ Available &nbsp;·&nbsp; 🚧 In development / R&D &nbsp;·&nbsp; 💡 Planned
 
 ```mermaid
-flowchart TD
-    Req["Business User Stories"] --> Gen["Test Case Generation<br/>MCP and LLMs"]
-    Gen -->|"Generated test scripts"| Pipe["Multi-Framework QA Pipeline<br/>Jenkins, Docker, SonarQube"]
+flowchart TB
+    subgraph L1 ["Shift-Left Generation"]
+        Gen["Test Case Generation<br/>MCP and LLMs<br/>from Business User Stories"]
+    end
 
-    subgraph Ops ["Intelligent Operations and Analytics Layer"]
+    subgraph L2 ["Execution and Telemetry"]
         direction LR
-        ACV["Automation Code Validator<br/>LangGraph and Ollama"] -->|"Validation data"| Dash["Dashboard Metrics Quality"]
+        Suites["Test Suites<br/>Cypress, Playwright,<br/>Selenium, API"] -->|"executed in"| Infra["CI/CD Pipeline<br/>Jenkins, Docker,<br/>SonarQube"]
+    end
+
+    subgraph L3 ["Intelligent Operations and Analytics"]
+        direction LR
+        ACV["Automation Code Validator<br/>LangGraph and Ollama"] -->|"Validation data"| Dash["Dashboard<br/>Metrics Quality"]
         Dash -->|"Consolidated telemetry"| Pred["Software Error<br/>Prediction Model"]
     end
 
-    Pipe -->|"Failure logs"| ACV
-    Pipe -->|"Execution metrics"| Dash
-    Pipe -->|"Telemetry and logs"| Pred
-    Pred -->|"Risk feedback"| Gen
+    L1 -->|"Generated test scripts"| L2
+    L2 -->|"Failure logs, metrics and telemetry"| L3
+    L3 -.->|"Predictive risk feedback"| L1
 
     style ACV fill:#1f2d3d,stroke:#38bdf8,stroke-width:2px
     style Dash fill:#111827,stroke:#10b981,stroke-width:1px,stroke-dasharray: 5 5
-    style Ops fill:transparent,stroke:#374151,stroke-width:1px,stroke-dasharray: 3 3
+    style L1 fill:transparent,stroke:#374151,stroke-width:1px,stroke-dasharray: 3 3
+    style L2 fill:transparent,stroke:#374151,stroke-width:1px,stroke-dasharray: 3 3
+    style L3 fill:transparent,stroke:#374151,stroke-width:1px,stroke-dasharray: 3 3
 ```
 
 ---
@@ -117,7 +124,7 @@ flowchart TD
 
 ### 📊 3. Centralized Analytics Layer
 
-#### 💡 Dashboard Metrics Quality *(planned)*
+#### 🚧 [Dashboard Metrics Quality](https://github.com/acorvello/dashboard-metrics-quality) *(in development)*
 *   **Ecosystem role:** The unified insights hub, consolidating telemetry from generation, execution and prediction.
 *   **Engineering focus:** An interface that translates QA metrics, data drift and automation coverage into business-ready health indicators.
 

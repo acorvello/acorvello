@@ -95,7 +95,7 @@ flowchart TB
 
 ### 🤖 1. Shift-Left: Intelligent Generation & Execution
 
-#### 🚧 [AI Test Case Generation from User Stories](https://github.com/acorvello/generator-test-scenarios-transformers) *(open-source educational concept)*
+#### 🚧 [AI Test Case Generation from User Stories](https://github.com/acorvello/ai-test-case-generator) *(open-source educational concept)*
 *   **Ecosystem role:** The genesis layer. Runs before pipeline execution, turning product owner and QA items into BDD scenarios and test method skeletons.
 *   **Engineering:** A Python web application that uses **RAG** and a **local LLM (Ollama)** to interpret requirements, generate Gherkin scenarios and produce automation code for Cypress, Playwright, Selenium and API tests, with PostgreSQL persistence planned.
 *   **Feedback loop:** Designed to take failure-risk signals from the *Software Error Prediction* phase to prioritize coverage.

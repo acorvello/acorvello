@@ -66,7 +66,7 @@ Instead of isolated repositories, my work is organized as an **interconnected AI
 ```mermaid
 flowchart TB
     subgraph L1 ["Shift-Left Generation"]
-        Gen["Test Case Generation<br/>MCP and LLMs<br/>from Business User Stories"]
+        Gen["Test Case Generation<br/>RAG and Local LLMs<br/>from Business User Stories"]
     end
 
     subgraph L2 ["Execution and Telemetry"]
@@ -95,10 +95,13 @@ flowchart TB
 
 ### 🤖 1. Shift-Left: Intelligent Generation & Execution
 
-#### 🚧 [AI Test Case Generation from User Stories (MCP + Playwright)](https://github.com/acorvello/REPLACE-WITH-REPO-NAME)
-*   **Ecosystem role:** The genesis layer. Runs before pipeline execution, turning business requirements into structured test scripts.
-*   **Engineering:** A generative solution using the **Model Context Protocol (MCP)** and LLMs to parse user stories, extract data schemas and generate UI test scripts for Playwright.
+#### 🚧 [AI Test Case Generation from User Stories](https://github.com/acorvello/generator-test-scenarios-transformers) *(open-source educational concept)*
+*   **Ecosystem role:** The genesis layer. Runs before pipeline execution, turning product owner and QA items into BDD scenarios and test method skeletons.
+*   **Engineering:** A Python web application that uses **RAG** and a **local LLM (Ollama)** to interpret requirements, generate Gherkin scenarios and produce automation code for Cypress, Playwright, Selenium and API tests, with PostgreSQL persistence planned.
 *   **Feedback loop:** Designed to take failure-risk signals from the *Software Error Prediction* phase to prioritize coverage.
+*   **Professional counterpart:** *Performance Improvement in Test Case Generation*, an enterprise solution built with LLMs and MCP. Its source code is proprietary and not public due to confidentiality agreements. This repository is an independent concept on a public stack.
+
+---
 
 #### ✅ [Multi-Framework QA Pipeline & Static Code Analysis (SonarQube)](https://github.com/acorvello/docker-test-env)
 *   **Ecosystem role:** The execution and telemetry engine. Containerizes, runs and monitors test suites, collecting unified telemetry.
